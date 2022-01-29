@@ -1,8 +1,11 @@
+import Pokedex from './components/Pokedex';
+
 function App() {
   return (
-    <div className="App">
-      Hello world
-    </div>
+    <>
+      <h1>Olá</h1>
+      <Pokedex />
+    </>
   );
 }
 
