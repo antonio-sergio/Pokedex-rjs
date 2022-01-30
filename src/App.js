@@ -1,11 +1,8 @@
-import Pokedex from './components/Pokedex';
+import ContainerLocal from './components/Container/index';
 
 function App() {
   return (
-    <>
-      <h1>Olá</h1>
-      <Pokedex />
-    </>
+    <ContainerLocal />
   );
 }
 
